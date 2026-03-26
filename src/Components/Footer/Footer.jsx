@@ -19,7 +19,7 @@ import EmailIcon from "../../Assets/EmailIcon.png";
 import EmailIconDark from "../../Assets/EmailIconDark.png";
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
 
   return (
     <footer className={`footerContainer ${theme}`}>

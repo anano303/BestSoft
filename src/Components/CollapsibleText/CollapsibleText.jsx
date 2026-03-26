@@ -6,7 +6,7 @@ import { TEXTS } from "../../Hooks/Languages";
 const CollapsibleText = ({ text, maxLength = 150 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);

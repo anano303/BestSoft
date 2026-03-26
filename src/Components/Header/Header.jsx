@@ -37,7 +37,7 @@ const Header = () => {
     navigate(`${location.pathname}${newSearch ? `?${newSearch}` : ""}`, {
       replace: true,
     });
-  }, [theme, language, location.pathname, navigate]);
+  }, [theme, language, location.search, location.pathname, navigate]);
 
   const handleLangClick = () => {
     const newLanguage = language === "ge" ? "en" : "ge";

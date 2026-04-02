@@ -99,7 +99,7 @@ const Portfolio = () => {
       description: "Creative photo studio website.",
       technologies: "Next.js, CSS, Cloudinary, Formspree, Firebase",
       githubLink: "https://github.com/anano303/pixelstudio",
-      projectLink: "https://pixelstudio.ge",
+      projectLink: "https://pixelstudio-app.vercel.app/",
     },
     {
       imageUrl: expense,
@@ -119,7 +119,7 @@ const Portfolio = () => {
         "A platform for booking and purchasing train tickets online.",
       technologies: "Angular, Fetch, Axios, PDF Generator, API Integration",
       githubLink: "https://github.com/anano303/train-tickets",
-      projectLink: "https://train-tickets-nine.vercel.app/",
+      projectLink: "https://train-tkt.vercel.app/",
     },
 
     {
@@ -129,7 +129,7 @@ const Portfolio = () => {
         "A website for a software development company, showcasing services and projects using React.",
       technologies: "React, SCSS, Responsive Design, Formspree, Firebase",
       githubLink: "https://github.com/anano303/BestSoft",
-      projectLink: "https://bestsoft.vercel.app/",
+      projectLink: "https://bestsoft.ge",
     },
 
     {
@@ -138,7 +138,7 @@ const Portfolio = () => {
       description: "Creative design studio website.",
       technologies: "React, CSS, Responsive Design",
       githubLink: "https://github.com/anano303/BluePrintProject2024",
-      projectLink: "https://blue-print-project2024.vercel.app/",
+      projectLink: "https://blue-print-georgia.vercel.app/",
     },
     {
       imageUrl: tbc,
@@ -240,15 +240,15 @@ const Portfolio = () => {
       projectLink: "https://anano303.github.io/calculator-app-main/",
     },
 
-    {
-      imageUrl: clipboardImage9,
-      projectTitle: "Kinder Garden",
-      description:
-        "A playful and colorful page designed for a kinder garden, featuring dynamic elements and smooth animations.",
-      technologies: "React, CSS, JavaScript",
-      githubLink: "https://github.com/anano303/slider-react",
-      projectLink: "https://slider-react-nine.vercel.app/",
-    },
+    // {
+    //   imageUrl: clipboardImage9,
+    //   projectTitle: "Kinder Garden",
+    //   description:
+    //     "A playful and colorful page designed for a kinder garden, featuring dynamic elements and smooth animations.",
+    //   technologies: "React, CSS, JavaScript",
+    //   githubLink: "https://github.com/anano303/slider-react",
+    //   projectLink: "https://slider-react-nine.vercel.app/",
+    // },
     // ... remaining projects
   ];
 

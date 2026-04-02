@@ -25,6 +25,7 @@ import SoulArt from "./my projects/soulart.jpg";
 import Ezobana from "./my projects/ezobana.png";
 import Silhoutte from "./my projects/siluete.png";
 import myHunter from "./my projects/myHunter.png";
+import ninoBarjadze from "./my projects/nino-barjadze.png";
 
 const Portfolio = () => {
   const { language } = useContext(LanguageContext);
@@ -64,6 +65,16 @@ const Portfolio = () => {
         "Next.js, Nest.js, mongoDB, RestApi, Swagger, Docker, Cloudinary, AWS, BogPay, AIChat, Socket, nodemailer, Auth/ Registration,  GoogleAuth, stripe, paypal",
       githubLink: "https://github.com/anano303/soul-art",
       projectLink: "https://soulart.ge/",
+    },
+     {
+      imageUrl: ninoBarjadze,
+      projectTitle: "Nino Barjadze — Portfolio",
+      description:
+        "Personal portfolio website for a UX/UI & Graphic Designer, featuring services, skills, project showcase, and contact form with modern dark theme design.",
+      technologies:
+        "Next.js, TypeScript, Responsive Design, Animations, Vercel",
+      githubLink: "https://nino-barjadze.vercel.app",
+      projectLink: "https://nino-barjadze.vercel.app",
     },
 
     {

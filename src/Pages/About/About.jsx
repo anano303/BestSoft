@@ -157,7 +157,7 @@ const About = () => {
               "https://www.instagram.com/nin.illustrations/?igsh=bzk0c2Q4eXc1MTE3&utm_source=qr",
               "https://www.linkedin.com/in/ninobarjadze",
             ]}
-            className={`member ${theme}`} // Custom className
+            className={`member ${theme}`} // Custom className ...
             id="nino" // Custom ID
           />
           <TeamMember

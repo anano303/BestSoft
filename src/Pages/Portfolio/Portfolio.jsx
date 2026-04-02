@@ -12,7 +12,7 @@ import clipboardImage4 from "./my projects/2.jpg";
 import clipboardImage6 from "./my projects/4.jpg";
 import clipboardImage7 from "./my projects/5.jpg";
 import clipboardImage8 from "./my projects/6.jpg";
-import clipboardImage9 from "./my projects/bagis page.png";
+//import clipboardImage9 from "./my projects/bagis page.png";
 import clipboardImage10 from "./my projects/1.jpg";
 import tbc from "./my projects/tbc.jpg";
 import trainSite from "./my projects/train.jpg";

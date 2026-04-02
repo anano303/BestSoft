@@ -26,6 +26,9 @@ import Ezobana from "./my projects/ezobana.png";
 import Silhoutte from "./my projects/siluete.png";
 import myHunter from "./my projects/myHunter.png";
 import ninoBarjadze from "./my projects/nino-barjadze.png";
+import prime1 from "./my projects/prime1.png";
+import prime2 from "./my projects/prime2.png";
+import shopIt from "./my projects/shopit.png";
 
 const Portfolio = () => {
   const { language } = useContext(LanguageContext);
@@ -37,6 +40,36 @@ const Portfolio = () => {
   };
 
   const projects = [
+    {
+      imageUrl: prime1,
+      projectTitle: "Prime Property Insurance",
+      description:
+        "Property insurance portal for Prime Insurance Company — an online platform enabling customers to insure residential and commercial properties, calculate premiums, and manage policies digitally.",
+      technologies:
+        "React, Node.js, REST API, Responsive Design, Insurance Integration",
+      githubLink: "https://insure.myprime.ge/",
+      projectLink: "https://insure.myprime.ge/",
+    },
+    {
+      imageUrl: prime2,
+      projectTitle: "TravelPrime — Agent Portal",
+      description:
+        "Travel insurance agent portal with full authentication & authorization system, Geomed integration for health insurance packages, agent dashboard for policy management, client tracking, and commission reporting.",
+      technologies:
+        "Next.js, Vercel, Auth/Registration, Role-Based Access, Geomed API, Agent Dashboard, Responsive Design",
+      githubLink: "https://insure.myprime.ge/travel/en#geomed",
+      projectLink: "https://insure.myprime.ge/travel/en#geomed",
+    },
+     {
+      imageUrl: shopIt,
+      projectTitle: "ShopIt — E-commerce Marketplace",
+      description:
+        "E-commerce marketplace platform (Shopify-like) enabling users to create and manage their own online stores. Features include product management, payment integration, hosting, store customization, and full operational functionality.",
+      technologies:
+        "Next.js, Nest.js, MongoDB, TypeScript, REST API, Swagger, Docker, Cloudinary, AWS, BogPay, Socket, Nodemailer, Auth/Registration, GoogleAuth, Stripe, PayPal, Responsive Design",
+      githubLink: "https://github.com/anano303/shopIt",
+      projectLink: "https://shopit.ge/",
+    },
     {
       imageUrl: myHunter,
       projectTitle: "My Hunter",

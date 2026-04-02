@@ -8,9 +8,7 @@ import BigAnimLogo from "../../Components/BigAnimLogo/BigAnimLogo";
 import blueprintImage from "./my projects/blueprint.jpg";
 import clipboardImage from "./my projects/9.jpg";
 import clipboardImage2 from "./my projects/8.jpg";
-import clipboardImage3 from "./my projects/7.jpg";
 import clipboardImage4 from "./my projects/2.jpg";
-import clipboardImage5 from "./my projects/3.jpg";
 import clipboardImage6 from "./my projects/4.jpg";
 import clipboardImage7 from "./my projects/5.jpg";
 import clipboardImage8 from "./my projects/6.jpg";
@@ -27,6 +25,7 @@ import SoulArt from "./my projects/soulart.jpg";
 import Ezobana from "./my projects/ezobana.png";
 import Silhoutte from "./my projects/siluete.png";
 import myHunter from "./my projects/myHunter.png";
+import ninoBarjadze from "./my projects/nino-barjadze.png";
 
 const Portfolio = () => {
   const { language } = useContext(LanguageContext);
@@ -67,6 +66,16 @@ const Portfolio = () => {
       githubLink: "https://github.com/anano303/soul-art",
       projectLink: "https://soulart.ge/",
     },
+     {
+      imageUrl: ninoBarjadze,
+      projectTitle: "Nino Barjadze — Portfolio",
+      description:
+        "Personal portfolio website for a UX/UI & Graphic Designer, featuring services, skills, project showcase, and contact form with modern dark theme design.",
+      technologies:
+        "Next.js, TypeScript, Responsive Design, Animations, Vercel",
+      githubLink: "https://nino-barjadze.vercel.app",
+      projectLink: "https://nino-barjadze.vercel.app",
+    },
 
     {
       imageUrl: Ezobana,
@@ -101,7 +110,7 @@ const Portfolio = () => {
       description: "Creative photo studio website.",
       technologies: "Next.js, CSS, Cloudinary, Formspree, Firebase",
       githubLink: "https://github.com/anano303/pixelstudio",
-      projectLink: "https://pixelstudio.ge",
+      projectLink: "https://pixelstudio-app.vercel.app/",
     },
     {
       imageUrl: expense,
@@ -121,7 +130,7 @@ const Portfolio = () => {
         "A platform for booking and purchasing train tickets online.",
       technologies: "Angular, Fetch, Axios, PDF Generator, API Integration",
       githubLink: "https://github.com/anano303/train-tickets",
-      projectLink: "https://train-tickets-nine.vercel.app/",
+      projectLink: "https://train-tkt.vercel.app/",
     },
 
     {
@@ -131,7 +140,7 @@ const Portfolio = () => {
         "A website for a software development company, showcasing services and projects using React.",
       technologies: "React, SCSS, Responsive Design, Formspree, Firebase",
       githubLink: "https://github.com/anano303/BestSoft",
-      projectLink: "https://bestsoft.vercel.app/",
+      projectLink: "https://bestsoft.ge",
     },
 
     {
@@ -140,7 +149,7 @@ const Portfolio = () => {
       description: "Creative design studio website.",
       technologies: "React, CSS, Responsive Design",
       githubLink: "https://github.com/anano303/BluePrintProject2024",
-      projectLink: "https://blue-print-project2024.vercel.app/",
+      projectLink: "https://blue-print-georgia.vercel.app/",
     },
     {
       imageUrl: tbc,
@@ -242,15 +251,15 @@ const Portfolio = () => {
       projectLink: "https://anano303.github.io/calculator-app-main/",
     },
 
-    {
-      imageUrl: clipboardImage9,
-      projectTitle: "Kinder Garden",
-      description:
-        "A playful and colorful page designed for a kinder garden, featuring dynamic elements and smooth animations.",
-      technologies: "React, CSS, JavaScript",
-      githubLink: "https://github.com/anano303/slider-react",
-      projectLink: "https://slider-react-nine.vercel.app/",
-    },
+    // {
+    //   imageUrl: clipboardImage9,
+    //   projectTitle: "Kinder Garden",
+    //   description:
+    //     "A playful and colorful page designed for a kinder garden, featuring dynamic elements and smooth animations.",
+    //   technologies: "React, CSS, JavaScript",
+    //   githubLink: "https://github.com/anano303/slider-react",
+    //   projectLink: "https://slider-react-nine.vercel.app/",
+    // },
     // ... remaining projects
   ];
 

@@ -3,7 +3,7 @@ import "./Calculation.css";
 import { LanguageContext } from "../../Hooks/LanguageContext";
 import { TEXTS } from "../../Hooks/Languages";
 import { useLocation } from "react-router-dom";
-import { useForm, useFormContext } from "../../Hooks/FormContext";
+import { useFormContext } from "../../Hooks/FormContext";
 import submitImage from "../Contact/images/submit.png";
 import CircleEffect from "../../Components/CircleEffect/CircleEffect";
 const CalculationPage = () => {

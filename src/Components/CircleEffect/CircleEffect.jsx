@@ -1,15 +1,15 @@
-import React, { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useRef } from 'react';
 import './CircleEffect.css';
 
 const CircleEffect = () => {
-  let lastMoveTime = 0; 
+  const lastMoveTime = useRef(0); 
 
   const handleMouseMove = useCallback((e) => {
     const currentTime = Date.now();
 
     // ზღუდავთ რგოლების სიხშირეს
-    if (currentTime - lastMoveTime < 100) return;
-    lastMoveTime = currentTime;
+    if (currentTime - lastMoveTime.current < 100) return;
+    lastMoveTime.current = currentTime;
 
     const circle = document.createElement('span');
     const x = e.clientX + window.scrollX;
@@ -33,7 +33,7 @@ const CircleEffect = () => {
 
     // Remove the circle after 3 seconds
     setTimeout(() => circle.remove(), 3000);
-  }, [lastMoveTime]);
+  }, []);
 
   useEffect(() => {
     window.addEventListener('mousemove', handleMouseMove);

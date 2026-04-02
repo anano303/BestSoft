@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../../Hooks/ThemeContext";
 import { LanguageContext } from "../../Hooks/LanguageContext";
 import { TEXTS } from "../../Hooks/Languages";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import BurgerMenu from "./Icons/burger menu icon.png";
 import x from "./Icons/x (2).png";
@@ -20,12 +20,11 @@ import contactIconLight from "./Icons/call (1).png";
 import mobImage from "./Icons/primery bs logoai 1.png";
 
 const Navbar = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { theme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
   const [isOpen, setIsOpen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
-  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
